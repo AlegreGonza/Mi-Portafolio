@@ -29,7 +29,6 @@ El proyecto está estructurado bajo un patrón modular estricto donde cada secci
 
 ## 📂 Estructura del Proyecto
 
-```text
 src/
 ├── app/
 │   └── [lng]/               # Rutas dinámicas internacionalizadas
@@ -56,7 +55,7 @@ Si deseas clonar y ejecutar este repositorio en tu entorno local, sigue estos pa
 1. **Clonar el repositorio:**
 
 ```bash
-git clone [https://github.com/AlegreGonza/Mi-Portafolio.git](https://github.com/AlegreGonza/Mi-Portafolio.git)
+git clone https://github.com/AlegreGonza/Portafolio.git
 cd Mi-Portafolio
 
 ```
