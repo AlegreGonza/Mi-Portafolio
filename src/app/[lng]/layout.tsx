@@ -3,6 +3,7 @@ import { getDictionary } from "@/i18n/dictionaries/get-dictionary";
 import ClientTitle from "@/components/ClientTitle";
 import PageTransition from "@/components/PageTransition";
 import Starfield from "./Starfield";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -48,6 +49,7 @@ export default async function RootLayout({
         <PageTransition>
           {children}
         </PageTransition>
+        <SpeedInsights />
       </body>
     </html>
   );
