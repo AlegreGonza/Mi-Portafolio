@@ -1,0 +1,209 @@
+/* Navbar.module.css */
+
+.header {
+  position: sticky;       
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s ease; 
+}
+
+.headerScrolled {
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.container, .logoGroup, .navControls, .actions, .socialIcons {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 5rem;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+/* Estilos del Logo: transición suave, escala y brillo blanco al hacer hover */
+.logoGroup {
+  gap: 0.5rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logoGroup:hover {
+  color: #ffffff;
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.4));
+}
+
+.navControls { gap: 2rem; }
+.actions { gap: 1rem; }
+.socialIcons { gap: 1rem; }
+
+.navLinks {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.025em;
+}
+
+.navLinks a {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.navLinks a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #ffffff;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.navLinks a:hover {
+  color: #ffffff;
+  transform: scale(1.08);
+}
+
+.navLinks a:hover::after {
+  width: 100%;
+}
+
+.socialIcons a, .themeToggle {
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.socialIcons a:hover, .themeToggle:hover {
+  color: #ffffff;
+}
+
+.socialIcons a { color: rgba(255, 255, 255, 0.7); }
+
+.divider {
+  height: 1rem;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  display: none;
+}
+
+.themeToggle {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 9999px;
+  gap: 2px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.themeToggle span, 
+.themeToggle button,
+.themeToggle a {
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+}
+
+.themeToggle .active, 
+.themeToggle span[data-active="true"],
+.themeToggle button.active,
+.themeToggle a.active {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.35);
+}
+
+.themeToggle:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+.mobileWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.menuButton:hover {
+  color: #ffffff;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  width: 100%;
+}
+
+.mobileMenu a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  text-decoration: none;
+  text-align: right;
+  transition: color 0.2s ease;
+}
+
+.mobileMenu a:hover {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .navLinks, .divider {
+    display: flex;
+  }
+  
+  .mobileWrapper {
+    display: none !important;
+  }
+}

@@ -1,0 +1,91 @@
+/* Hero.module.css */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .hero {
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 0 6rem;
+  }
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  max-width: 75rem;
+}
+
+.greeting {
+  font-family: var(--font-mono, 'Space Mono'), monospace;
+  font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: var(--font-orbitron, 'Orbitron'), sans-serif;
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.35), 0 0 9px rgba(255, 255, 255, 0.15);
+}
+
+.role {
+  font-family: var(--font-mono, 'Space Mono'), monospace;
+  font-size: clamp(1rem, 1.6vw, 1.6rem);
+  color: rgb(183, 183, 185);
+  max-width: 50rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.primaryButton, .secondaryButton {
+  padding: 0.65rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  font-family: var(--font-sans, 'Inter'), sans-serif;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #ffffff;
+}
+
+.primaryButton:hover, .secondaryButton:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+}

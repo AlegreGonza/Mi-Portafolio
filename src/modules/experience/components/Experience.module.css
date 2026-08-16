@@ -1,0 +1,97 @@
+.section {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+  color: #a3a3a3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.itemCard {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.itemCard:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.03);
+  transform: translateY(-2px);
+}
+
+.itemHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .itemHeader {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.itemRole {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.itemCompany {
+  color: #34d399; /* Verde esmeralda */
+  font-weight: 500;
+}
+
+.itemPeriod {
+  font-size: 0.75rem;
+  font-family: monospace;
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.375rem;
+  background: rgba(52, 211, 153, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  color: #34d399; /* Verde esmeralda */
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.15);
+  width: fit-content;
+}
+
+.descriptionList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 0.875rem;
+  color: #a3a3a3;
+  line-height: 1.6;
+}

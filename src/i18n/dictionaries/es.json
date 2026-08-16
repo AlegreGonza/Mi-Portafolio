@@ -1,0 +1,148 @@
+{
+
+  "meta": {
+    "title": "Gonzalo Alegre | Desarrollador",
+    "description": "Portfolio profesional de Gonzalo Alegre"
+  },
+
+  "navbar": {
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola soy,",
+    "name": "Gonzalo Alegre",
+    "role": "<Desarrollador Full Stack/>",
+    "projectsButton": "Ver proyectos",
+    "cvButton": "Descargar CV"
+  },
+  "profile": {
+    "number": "01",
+    "sectionTitle": "Perfil",
+    "headline": "Impulso el desarrollo con",
+    "headlineHighlight": "inteligencia y escalabilidad.",
+    "description": "Desarrollador Full Stack especializado en backend con Java y Spring Boot. Enfocado en el diseño de APIs REST escalables, optimización de datos y automatización mediante IA.",
+    "cards": {
+      "backend": {
+        "title": "Backend & Data",
+        "description": "Diseño e implementación de APIs REST robustas con Spring Boot y Spring Security. Experto en optimización de consultas SQL, gestión de bases de datos relacionales y ciclos de vida de desarrollo ágil."
+      },
+      "architecture": {
+        "title": "Arquitectura & Software",
+        "description": "Desarrollo de arquitecturas escalables y mantenibles. Experiencia en integración de servicios, testing funcional con JUnit/Mockito y despliegue de funcionalidades bajo metodologías ágiles."
+      },
+      "tools": {
+        "title": "IA & Automatización",
+        "description": "Especializado en la implementación de herramientas de IA para optimizar procesos y desarrollo. Uso de APIs (OpenAI/Anthropic) y automatización para la mejora continua del código."
+      }
+    },
+    "focusLabel": "Enfoque",
+    "focusText": "Transformo requerimientos técnicos en sistemas de alto rendimiento — desde la lógica del backend hasta la integración inteligente de procesos.",
+    "ctaButton": "Explorar Proyectos"
+  },
+  "education": {
+    "number": "02",
+    "sectionTitle": "Formación",
+    "items": [
+      {
+        "title": "Licenciatura en Sistemas de Información",
+        "institution": "Universidad Nacional del Nordeste (UNNE)",
+        "description": "Formación integral orientada al análisis, diseño y gestión de sistemas de información, bases de datos y arquitectura de software.",
+        "status": "En curso"
+      },
+      {
+        "title": "Desarrollo Web Full Stack (React & Next.js)",
+        "institution": "ITBA",
+        "description": "Capacitación avanzada en tecnologías modernas de desarrollo frontend y arquitecturas web interactivas.",
+        "status": "Completado"
+      }
+    ]
+  },
+  "experience": {
+    "number": "03",
+    "sectionTitle": "Experiencia",
+    "items": [
+      {
+        "company": "Integrasoft",
+        "role": "Desarrollador Full Stack (Práctica)",
+        "period": "03/2026 – 07/2026",
+        "description": [
+          "Desarrollé y optimicé soluciones de software escalables, participando activamente en todo el ciclo de vida del desarrollo.",
+          "Mantuve arquitecturas de backend robustas, ejecutando consultas SQL avanzadas para garantizar la integridad y eficiencia en el manejo de datos.",
+          "Realicé pruebas funcionales y de integración de APIs mediante Postman, asegurando el correcto funcionamiento de los endpoints antes del despliegue.",
+          "Colaboré estrechamente con el equipo técnico para el despliegue de funcionalidades, empleando metodologías ágiles para mejorar la calidad y los tiempos de entrega."
+        ]
+      },
+      {
+        "company": "Alfa Accesorios",
+        "role": "Desarrollador / Comercial Advisor & Manager",
+        "period": "08/2024 – 02/2026",
+        "description": [
+          "Gestión integral de múltiples sucursales y optimización de procesos operativos.",
+          "Negociación con proveedores y administración general orientada al rendimiento comercial."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "number": "04",
+    "sectionTitle": "Habilidades",
+    "badge": "HABILIDADES",
+    "title": "Mi Stack Tecnológico",
+    "subtitle": "Tecnologías con las que construyo soluciones modernas, desde APIs robustas hasta interfaces de usuario interactivas.",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "tools": "Herramientas"
+    },
+    "list": {
+      "backend": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "REST APIs"
+      ],
+      "frontend": [
+        "React",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "Vite",
+        "Maven",
+        "Postman"
+      ]
+    }
+  },
+  "contact": {
+    "number": "05",
+    "sectionTitle": "Contacto",
+    "badge": "CONTACTO",
+    "title": "¿Hablamos?",
+    "subtitle": "El desarrollo de software es mi herramienta para crear soluciones escalables. Si buscas un perfil técnico enfocado en backend, arquitectura e innovación, conversemos. Estoy abierto a nuevas colaboraciones estratégicas.",
+    "links": {
+      "email": {
+     "label": "EMAIL",
+      "value": "alegregonzasebaa@gmail.com",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=alegregonzasebaa@gmail.com"
+    },
+      "github": {
+        "label": "GITHUB",
+        "value": "@AlegreGonza",
+        "url": "https://github.com/AlegreGonza"
+      },
+      "linkedin": {
+        "label": "LINKEDIN",
+        "value": "Gonzalo Alegre",
+        "url": "https://linkedin.com/in/alegregonzalos"
+      }
+    }
+  }
+}

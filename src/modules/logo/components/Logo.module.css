@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: #171717; /* neutral-900 */
+  border: 1px solid #262626; /* neutral-800 */
+  border-radius: 0.5rem;    /* rounded-lg */
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  background-color: #262626; /* neutral-800 */
+  border-color: #404040;     /* neutral-700 */
+}
+
+.image {
+  color: #ffffff;            /* Color blanco para el icono de Lucide */
+  width: 20px;
+  height: 20px;
+  display: block;
+}

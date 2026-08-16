@@ -1,0 +1,148 @@
+{
+  
+  "meta": {
+    "title": "Gonzalo Alegre | Developer",
+    "description": "Professional portfolio of Gonzalo Alegre"
+  },
+  
+  "navbar": {
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Gonzalo Alegre",
+    "role": "<Full Stack Developer/>",
+    "projectsButton": "View projects",
+    "cvButton": "Download CV"
+  },
+  "profile": {
+    "number": "01",
+    "sectionTitle": "Profile",
+    "headline": "Driving development with",
+    "headlineHighlight": "intelligence and scalability.",
+    "description": "Full Stack Developer specialized in backend with Java and Spring Boot. Focused on designing scalable REST APIs, data optimization, and AI-driven automation.",
+    "cards": {
+      "backend": {
+        "title": "Backend & Data",
+        "description": "Design and implementation of robust REST APIs with Spring Boot and Spring Security. Expert in SQL query optimization, relational database management, and agile development lifecycles."
+      },
+      "architecture": {
+        "title": "Architecture & Software",
+        "description": "Development of scalable and maintainable architectures. Experience in service integration, functional testing with JUnit/Mockito, and feature deployment under agile methodologies."
+      },
+      "tools": {
+        "title": "AI & Automation",
+        "description": "Specialized in implementing AI tools to optimize processes and development. Use of APIs (OpenAI/Anthropic) and automation for continuous code improvement."
+      }
+    },
+    "focusLabel": "Focus",
+    "focusText": "Transforming technical requirements into high-performance systems — from backend logic to intelligent process integration.",
+    "ctaButton": "Explore Projects"
+  },
+  "education": {
+    "number": "02",
+    "sectionTitle": "Education",
+    "items": [
+      {
+        "title": "Bachelor's Degree in Information Systems",
+        "institution": "Universidad Nacional del Nordeste (UNNE)",
+        "description": "Comprehensive training focused on the analysis, design, and management of information systems, databases, and software architecture.",
+        "status": "In Progress"
+      },
+      {
+        "title": "Full Stack Web Development (React & Next.js)",
+        "institution": "ITBA",
+        "description": "Advanced training in modern frontend development technologies and interactive web architectures.",
+        "status": "Completed"
+      }
+    ]
+  },
+  "experience": {
+    "number": "03",
+    "sectionTitle": "Experience",
+    "items": [
+      {
+        "company": "Integrasoft",
+        "role": "Full Stack Developer (Internship)",
+        "period": "03/2026 – 07/2026",
+        "description": [
+          "Developed and optimized scalable software solutions, actively participating throughout the entire development lifecycle.",
+          "Maintained robust backend architectures, executing advanced SQL queries to ensure data integrity and handling efficiency.",
+          "Performed functional and API integration tests using Postman, ensuring correct endpoint functionality prior to deployment.",
+          "Collaborated closely with the technical team for feature deployment, utilizing agile methodologies to improve quality and delivery times."
+        ]
+      },
+      {
+        "company": "Alfa Accesorios",
+        "role": "Developer / Commercial Advisor & Manager",
+        "period": "08/2024 – 02/2026",
+        "description": [
+          "Comprehensive management of multiple branches and optimization of operational processes.",
+          "Supplier negotiations and general administration oriented towards commercial performance."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "number": "04",
+    "sectionTitle": "Skills",
+    "badge": "SKILLS",
+    "title": "My Tech Stack",
+    "subtitle": "Technologies I use to build modern solutions, ranging from robust APIs to interactive user interfaces.",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "tools": "Tools"
+    },
+    "list": {
+      "backend": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "REST APIs"
+      ],
+      "frontend": [
+        "React",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "Vite",
+        "Maven",
+        "Postman"
+      ]
+    }
+  },
+  "contact": {
+    "number": "05",
+    "sectionTitle": "Contact",
+    "badge": "CONTACT",
+    "title": "Let's Talk?",
+    "subtitle": "Software development is my tool for creating scalable solutions. If you are looking for a technical profile focused on backend, architecture, and innovation, let's connect. I am open to new strategic collaborations.",
+    "links": {
+      "email": {
+  "label": "EMAIL",
+  "value": "alegregonzasebaa@gmail.com",
+  "url": "https://mail.google.com/mail/?view=cm&fs=1&to=alegregonzasebaa@gmail.com"
+},
+      "github": {
+        "label": "GITHUB",
+        "value": "@AlegreGonza",
+        "url": "https://github.com/AlegreGonza"
+      },
+      "linkedin": {
+        "label": "LINKEDIN",
+        "value": "Gonzalo Alegre",
+        "url": "https://linkedin.com/in/alegregonzalos"
+      }
+    }
+  }
+}
