@@ -85,7 +85,3 @@ npm run dev
 ## 📄 Licencia
 
 Este proyecto es de uso personal. Si querés reutilizar partes del código, mencioná la fuente.
-
-```
-
-```
